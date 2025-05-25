@@ -1,4 +1,4 @@
-# ECF Calculator for High Energy Physics Analysis
+# ECF Calculator (DV5) for HEP Analysis
 
 Framework for calculating Energy Correlation Functions (ECFs) and other jet substructure variables using Dask and TaskVine for distributed computation in High Energy Physics (HEP).
 
