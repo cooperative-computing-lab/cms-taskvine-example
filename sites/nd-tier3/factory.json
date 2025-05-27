@@ -1,0 +1,11 @@
+{
+	"manager-name":"example_manager",
+	"max-workers":2,
+	"min-workers":0,
+	"workers-per-cycle":1000,
+	"cores":2,
+	"memory":cores*1048,
+	"disk":1000,
+	"timeout":600,
+        "condor-requirements": "((has_vast) && !regexp(\"^camd\", MachineShortName))"
+}
